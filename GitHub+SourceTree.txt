@@ -1,0 +1,33 @@
+Use SSH-key for the GitHub.
+
+How to add your existing local project to the SourceTree and the GitHub.
+
+1. If you don't have the project yet then create it on your computer.
+
+2. Initialize the repository using console in the SourceTree:
+	Create new tab;
+	Actions - Open in terminal (Shit+Alt+T);
+		cd <path_to_your_code> 
+(use this slash in the path - "/")
+		git init
+	Get the message "Initialized empty Git repository in <your_path>";
+	Close terminal.
+
+3. Click "Add" button;
+	Choose the path to your project;
+	The message will appear below the path: "This is a Git repository";
+	Click "add" below all fields.
+
+4. Create empty repository in the GitHub.
+
+5. Copy SSH-url of your repository from the GitHub.
+
+6. Go back to the SourceTree.
+	Open settings of your project;
+	In the "Remotes" tab click "Add" button;
+	Type the remote name or set "Default mode";
+	Paste your url into the field "URL/Path";
+	Choose your remote GitHub account;
+	Click OK.
+
+Now you can commit and push your changes into the GitHub repository!
