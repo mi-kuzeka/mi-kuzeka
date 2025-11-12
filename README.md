@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @mi-kuzeka
+- 👋 Hi, I’m Kate
 - 🌱 I’m currently learning Android development
 
 <!---
